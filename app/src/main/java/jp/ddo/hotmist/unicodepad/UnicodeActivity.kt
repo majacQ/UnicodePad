@@ -99,7 +99,7 @@ class UnicodeActivity : AppCompatActivity() {
             }
             it.textSize = fontsize
             it.setOnEditorActionListener { _, _, keyEvent ->
-                if (keyEvent.keyCode == KeyEvent.KEYCODE_ENTER) {
+                if (keyEvent?.keyCode == KeyEvent.KEYCODE_ENTER) {
                     if (keyEvent.action == KeyEvent.ACTION_DOWN) btnFinish.performClick()
                     true
                 } else
@@ -154,6 +154,7 @@ class UnicodeActivity : AppCompatActivity() {
                 val start = editText.selectionStart
                 if (start == -1) return@setOnClickListener
                 val end = editText.selectionEnd
+                adpPage.adapterEdit.updateString()
                 adpPage.showDesc(null, str.codePointCount(0, if (start == end) if (start == 0) 0 else start - 1 else min(start, end)), adpPage.adapterEdit)
             }
         }

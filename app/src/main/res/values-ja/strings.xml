@@ -406,13 +406,29 @@
 	<string name="legal">法的表記</string>
 	<string name="legal_uni">Unicode®</string>
 	<string name="legal_uni2">本アプリケーションはUnicode Data Fileの改変された版を含んでいます。
-Copyright © 1991-2020 Unicode, Inc. All rights reserved.
+Copyright © 1991-2021 Unicode, Inc. All rights reserved.
 Distributed under the Terms of Use in
 http://www.unicode.org/copyright.html.</string>
-	<string name="legal_app">UnicodePad 2.9.1</string>
+	<string name="legal_app">UnicodePad 2.10.4</string>
 	<string name="legal_app2">UnicodePad is licensed under the Apache License, Version2.0
 https://github.com/Ryosuke839/UnicodePad</string>
     <string name="locale_default">デフォルト (%s)</string>
 	<string name="locale_other">その他…</string>
 	<string name="locale_title">ロケール</string>
+	<string name="export_data">設定とデータをエクスポート…</string>
+	<string name="import_data">設定とデータをインポート…</string>
+	<string name="exported_data">エクスポートする項目</string>
+	<string name="imported_data">インポートする項目</string>
+	<string name="export_confirm">エクスポート</string>
+	<string name="import_confirm">インポート</string>
+	<string name="exported_notice">エクスポートしました</string>
+	<string name="imported_notice">インポートしました</string>
+	<string name="export_fail_io">エクスポートに失敗しました: %1$s</string>
+	<string name="import_fail_json">選択されたファイルは正しい JSON ではありません: %1$s</string>
+	<string name="import_fail_io">インポートに失敗しました: %1$s</string>
+	<string name="data_setting">設定</string>
+	<string name="data_history">履歴 (%1$d)</string>
+	<string name="data_favorite">お気に入り (%1$d)</string>
+	<string name="data_scroll">スクロール位置</string>
+	<string name="data_merge">現在の値と合成</string>
 </resources>
